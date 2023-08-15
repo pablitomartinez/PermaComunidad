@@ -9,6 +9,8 @@ import {
   // Grid,
   theme,
 } from '@chakra-ui/react';
+import Navbar from './components/Navbar';
+// import Header from './components/Navbar';
 // import { ColorModeSwitcher } from './ColorModeSwitcher';
 
 
@@ -17,6 +19,8 @@ function App() {
     <ChakraProvider theme={theme}>
       HOLI
       {/* <ColorModeSwitcher/> */}
+      {/* <Header/> */}
+      <Navbar/>
     </ChakraProvider>
   );
 }
