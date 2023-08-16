@@ -25,6 +25,7 @@ import {
 } from '@chakra-ui/icons'
 
 import logo from '../assets/logo/logo-no-background.png'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   const { isOpen, onToggle } = useDisclosure()
@@ -108,6 +109,7 @@ const DesktopNav = () => {
   const popoverContentBgColor = useColorModeValue('white', 'gray.800')
 
   return (
+    
     <Stack direction={'row'} spacing={4}>
       {NAV_ITEMS.map((navItem) => (
         <Box key={navItem.label}>
@@ -124,7 +126,9 @@ const DesktopNav = () => {
                   textDecoration: 'none',
                   color: linkHoverColor,
                 }}>
-                {navItem.label}
+                  <Link to={navItem.href} >
+                    {navItem.label}
+                  </Link>
               </Box>
             </PopoverTrigger>
 
@@ -265,6 +269,7 @@ const NAV_ITEMS = [
         href: '#',
       },
     ],
+    href: '/home',
   },
   {
     label: 'Proyectos',
@@ -290,6 +295,6 @@ const NAV_ITEMS = [
     href: '#',
   },  {
     label: 'Contactanos',
-    href: '#',
+    href: '/contacto',
   },
 ]
