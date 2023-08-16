@@ -11,6 +11,8 @@ import {
 } from '@chakra-ui/react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Footer from './components/Footer';
+import LandingCarrusels from './components/LandingCarrusels';
 // import Header from './components/Navbar';
 // import { ColorModeSwitcher } from './ColorModeSwitcher';
 
@@ -22,6 +24,8 @@ function App() {
       {/* <Header/> */}
       <Navbar/>
       <Hero/>
+      <LandingCarrusels/>
+      <Footer/>
     </ChakraProvider>
   );
 }

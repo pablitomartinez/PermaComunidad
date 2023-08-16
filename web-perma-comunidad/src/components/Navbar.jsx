@@ -252,7 +252,7 @@ var NavItem  = {
 
 const NAV_ITEMS = [
   {
-    label: 'Inspiration',
+    label: 'Home',
     children: [
       {
         label: 'Explore Design Work',
@@ -267,7 +267,7 @@ const NAV_ITEMS = [
     ],
   },
   {
-    label: 'Find Work',
+    label: 'Proyectos',
     children: [
       {
         label: 'Job Board',
@@ -282,11 +282,14 @@ const NAV_ITEMS = [
     ],
   },
   {
-    label: 'Learn Design',
+    label: 'Blog',
     href: '#',
   },
   {
-    label: 'Hire Designers',
+    label: 'Cursos y Talleres',
+    href: '#',
+  },  {
+    label: 'Contactanos',
     href: '#',
   },
 ]
