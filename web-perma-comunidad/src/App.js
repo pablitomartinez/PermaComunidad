@@ -10,6 +10,7 @@ import {
   theme,
 } from '@chakra-ui/react';
 import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 // import Header from './components/Navbar';
 // import { ColorModeSwitcher } from './ColorModeSwitcher';
 
@@ -17,10 +18,10 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      HOLI
       {/* <ColorModeSwitcher/> */}
       {/* <Header/> */}
       <Navbar/>
+      <Hero/>
     </ChakraProvider>
   );
 }

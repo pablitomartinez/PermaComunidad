@@ -15,6 +15,7 @@ import {
   useColorModeValue,
   useBreakpointValue,
   useDisclosure,
+  Image
 } from '@chakra-ui/react'
 import {
   HamburgerIcon,
@@ -22,6 +23,8 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from '@chakra-ui/icons'
+
+import logo from '../assets/logo/logo-no-background.png'
 
 export default function Navbar() {
   const { isOpen, onToggle } = useDisclosure()
@@ -54,7 +57,13 @@ export default function Navbar() {
             textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
             fontFamily={'heading'}
             color={useColorModeValue('gray.800', 'white')}>
-            Logo
+            <Image 
+              src={logo} 
+              alt='logo'
+              // boxSize="80px"
+              h={6}
+              w={20}
+            />
           </Text>
 
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
