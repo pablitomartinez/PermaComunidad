@@ -8,11 +8,13 @@ import {
   // VStack,
   // Code,
   // Grid,
-  theme,
+  // theme,
 } from '@chakra-ui/react';
 import Navbar from './components/Navbar';
 // import Header from './components/Navbar';
 // import { ColorModeSwitcher } from './ColorModeSwitcher';
+import {theme} from '../src/theme/index.js'
+
 import {
   Route,
   Routes

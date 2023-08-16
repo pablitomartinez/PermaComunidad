@@ -47,20 +47,19 @@ export default function Hero() {
               EcoAmor en Accion
             </Text>
           </Heading>
-          <Text color={'gray.500'}>
+          <Text color='brand.fifth' fontSize='xl'>
             Snippy is a rich coding snippets app that lets you create your own code
             snippets, categorize them, and even sync them in the cloud so you can use them
             anywhere. All that is free!
           </Text>
           <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
             <Button
+              variant='outline'
               rounded={'full'}
               size={'lg'}
               fontWeight={'normal'}
               px={6}
-              colorScheme={'red'}
-              bg={'red.400'}
-              _hover={{ bg: 'red.500' }}>
+              >
               Get started
             </Button>
             <Button

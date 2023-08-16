@@ -1,5 +1,3 @@
-'use client'
-
 import {
   Box,
   Flex,
@@ -17,6 +15,7 @@ import {
   useDisclosure,
   Image
 } from '@chakra-ui/react'
+
 import {
   HamburgerIcon,
   CloseIcon,
@@ -62,8 +61,8 @@ export default function Navbar() {
               src={logo} 
               alt='logo'
               // boxSize="80px"
-              h={6}
-              w={20}
+              h={30}
+              w={40}
             />
           </Text>
 
