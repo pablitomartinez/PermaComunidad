@@ -1,5 +1,3 @@
-'use client'
-
 import {
   Box,
   Stack,
@@ -12,10 +10,9 @@ import {
   ListItem,
   ListIcon,
   Button,
-} from '@chakra-ui/react'
+} from '@chakra-ui/react';
+
 import { FaCheckCircle } from 'react-icons/fa'
-
-
 
 function PriceWrapper(props) {
   const { children } = props

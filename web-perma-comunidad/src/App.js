@@ -21,6 +21,7 @@ import {
 } from 'react-router-dom'
 import Landing from './pages/Landing';
 import Contacto from './pages/Contacto';
+import SignIn from './pages/auth/SignIn';
 
 
 
@@ -34,6 +35,7 @@ function App() {
       <Routes>
         <Route path='/home' element={<Landing/>} />
         <Route path='/contacto' element={<Contacto/>} />
+        <Route path='/signIn' element={<SignIn/>} />
 
 
 

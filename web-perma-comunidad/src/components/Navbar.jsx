@@ -76,9 +76,11 @@ export default function Navbar() {
           justify={'flex-end'}
           direction={'row'}
           spacing={6}>
-          <Button as={'a'} fontSize={'sm'} fontWeight={400} variant={'link'} href={'#'}>
-            Sign In
-          </Button>
+            <Link to='/signIn' >
+              <Button mt={3} fontSize={'sm'} fontWeight={400} variant={'link'} href={'#'}>
+                Sign In
+              </Button>
+            </Link>
           <Button
             as={'a'}
             display={{ base: 'none', md: 'inline-flex' }}
