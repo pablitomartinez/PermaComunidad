@@ -34,10 +34,10 @@ export default function LandingCarrusels() {
   return (
     <Box py={12}>
       <VStack spacing={2} textAlign="center">
-        <Heading as="h1" fontSize="4xl">
+        <Heading as="h1" fontSize="4xl" color='brand.primary'>
           Plans that fit your need
         </Heading>
-        <Text fontSize="lg" color={'gray.500'}>
+        <Text fontSize="lg" color={'brand.secondary'}>
           Start with 14-day free trial. No credit card needed. Cancel at anytime.
         </Text>
       </VStack>
@@ -46,9 +46,10 @@ export default function LandingCarrusels() {
         textAlign="center"
         justify="center"
         spacing={{ base: 4, lg: 10 }}
+        color={'brand.primary'}
         py={10}>
         <PriceWrapper>
-          <Box py={4} px={12}>
+          <Box py={4} px={12} bg={'brand.third'}>
             <Text fontWeight="500" fontSize="2xl">
               Hobby
             </Text>
@@ -59,7 +60,7 @@ export default function LandingCarrusels() {
               <Text fontSize="5xl" fontWeight="900">
                 79
               </Text>
-              <Text fontSize="3xl" color="gray.500">
+              <Text fontSize="3xl" color='brand.primary'>
                 /month
               </Text>
             </HStack>
@@ -109,7 +110,7 @@ export default function LandingCarrusels() {
                 Most Popular
               </Text>
             </Box>
-            <Box py={4} px={12}>
+            <Box py={4} px={12} bg={'brand.third'}>
               <Text fontWeight="500" fontSize="2xl">
                 Growth
               </Text>
@@ -120,7 +121,7 @@ export default function LandingCarrusels() {
                 <Text fontSize="5xl" fontWeight="900">
                   149
                 </Text>
-                <Text fontSize="3xl" color="gray.500">
+                <Text fontSize="3xl" color="brand.primary">
                   /month
                 </Text>
               </HStack>
@@ -152,7 +153,7 @@ export default function LandingCarrusels() {
                 </ListItem>
               </List>
               <Box w="80%" pt={7}>
-                <Button w="full" colorScheme="red">
+                <Button w="full" variant='outline'>
                   Start trial
                 </Button>
               </Box>
@@ -160,7 +161,7 @@ export default function LandingCarrusels() {
           </Box>
         </PriceWrapper>
         <PriceWrapper>
-          <Box py={4} px={12}>
+          <Box py={4} px={12} bg={'brand.third'}>
             <Text fontWeight="500" fontSize="2xl">
               Scale
             </Text>
@@ -171,7 +172,7 @@ export default function LandingCarrusels() {
               <Text fontSize="5xl" fontWeight="900">
                 349
               </Text>
-              <Text fontSize="3xl" color="gray.500">
+              <Text fontSize="3xl" color="brand.primary">
                 /month
               </Text>
             </HStack>

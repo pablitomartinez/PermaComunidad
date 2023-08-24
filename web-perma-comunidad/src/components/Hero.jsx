@@ -30,6 +30,7 @@ export default function Hero() {
             <Text
               as={'span'}
               position={'relative'}
+              color='brand.primary'
               _after={{
                 content: "''",
                 width: 'full',
@@ -47,7 +48,7 @@ export default function Hero() {
               EcoAmor en Accion
             </Text>
           </Heading>
-          <Text color='brand.fifth' fontSize='xl'>
+          <Text color='brand.primary' fontSize='xl'>
             Snippy is a rich coding snippets app that lets you create your own code
             snippets, categorize them, and even sync them in the cloud so you can use them
             anywhere. All that is free!
@@ -60,7 +61,7 @@ export default function Hero() {
               fontWeight={'normal'}
               px={6}
               >
-              Get started
+              Comienza
             </Button>
             <Button
               rounded={'full'}
